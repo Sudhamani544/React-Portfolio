@@ -36,9 +36,6 @@ const Contact = () => {
         <div className="contact__left">
           <h3>Contact Details</h3>
           <div className="contact__info">
-            <img src={phone} className="contact__img" /> +31 617217765
-          </div>
-          <div className="contact__info">
             <img src={email} className="contact__img" /> ksudha544@gmail.com
           </div>
         </div>
