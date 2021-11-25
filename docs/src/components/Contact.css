@@ -1,0 +1,80 @@
+.contact {
+  height: 100vh;
+  position: relative;
+}
+
+.contact__bg {
+  width: 20px;
+  height: 100%;
+  background-color: #ff5403;
+  position: absolute;
+}
+
+.contact__wrapper {
+  display: flex;
+  padding: 50px;
+}
+
+.contact__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__info {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  width: 50%;
+}
+
+.contact__img {
+  width: 10%;
+  margin-right: 15px;
+}
+.contact__right {
+  flex: 1;
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  margin: 10px 0px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  font-size: 15px;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px 0px;
+  font-size: 15px;
+}
+
+button {
+  background-color: #ff5403;
+  padding: 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(58, 56, 56);
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+}
+
+@media screen and (max-width: 480px) {
+  .contact__wrapper {
+    flex-direction: column;
+  }
+}
