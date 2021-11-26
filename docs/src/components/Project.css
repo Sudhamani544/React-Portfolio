@@ -54,3 +54,9 @@
 .project__card:hover .project__cardimg {
   transform: translateY(-50%);
 }
+
+@media screen and (max-width: 480px) {
+  .project__maincard {
+    width: 100%;
+  }
+}

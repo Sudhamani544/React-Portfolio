@@ -73,8 +73,12 @@ button:hover {
   color: red;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .contact__wrapper {
     flex-direction: column;
   }
-}
+
+  .contact__wrapper {
+    padding: 0px 50px;
+  }
+} */

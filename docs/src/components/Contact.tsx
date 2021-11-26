@@ -2,8 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 
 import "./Contact.css";
-import phone from "../img/phone.png";
-import email from "../img/email.png";
+import { AlternateEmail } from "@mui/icons-material";
 
 const Contact = () => {
   const form = useRef<any>("");
@@ -33,12 +32,10 @@ const Contact = () => {
     <div className="contact">
       <div className="contact__bg"></div>
       <div className="contact__wrapper">
-        <div className="contact__left">
+        {/* <div className="contact__left">
           <h3>Contact Details</h3>
-          <div className="contact__info">
-            <img src={email} className="contact__img" /> ksudha544@gmail.com
-          </div>
-        </div>
+          <div className="contact__info">ksudha544@gmail.com</div>
+        </div> */}
         <div className="contact__right">
           <h3>Leave a message</h3>
           <div>

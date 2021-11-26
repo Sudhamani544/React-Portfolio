@@ -25,27 +25,18 @@
   align-items: center;
 }
 
-.about__title {
-  display: flex;
-  justify-content: center;
-}
-.about__card.bg {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  background-color: black;
-}
+@media screen and (max-width: 480px) {
+  .about {
+    flex-direction: column;
+  }
 
-.about__card {
-  width: 60%;
-  height: 70vh;
-  border-radius: 30px;
-  position: relative;
-}
+  .about__left {
+    background-color: white;
+  }
 
-.about__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 30px;
+  .about__left__img {
+    width: 50%;
+    height: 150%;
+    position: absolute;
+  }
 }

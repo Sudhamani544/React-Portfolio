@@ -45,7 +45,6 @@
 
 .intro__right__img {
   position: absolute;
-  /* object-fit: cover; */
   width: 80%;
   height: 80%;
   bottom: 0;
@@ -63,12 +62,43 @@
   right: 0;
 }
 
-.intro__icon {
+.intro__iconlink {
   color: #ff5403;
+  margin: 15px;
 }
 
 @media screen and (max-width: 480px) {
   .intro {
     flex-direction: column;
+  }
+
+  .intro__name {
+    font-size: 40px;
+  }
+
+  .intro__left {
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .intro__title__item {
+    font-size: 20px;
+  }
+  .intro__desc {
+    display: none;
+  }
+
+  .intro__iconlink {
+    padding: 0px;
+    color: black;
+  }
+
+  .intro__right__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: -20px;
   }
 }

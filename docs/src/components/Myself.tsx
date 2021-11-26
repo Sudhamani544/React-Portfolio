@@ -26,26 +26,20 @@ const Myself = () => {
           </p>
         </div>
         <div>
-          <ul>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/sudhamani-kampamalla-65a331137/"
-                target="_blank"
-                className="intro__icon"
-              >
-                <LinkedInIcon />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/Sudhamani544"
-                target="_blank"
-                className="intro__icon"
-              >
-                <GitHubIcon />
-              </a>
-            </li>
-          </ul>
+          <a
+            href="https://www.linkedin.com/in/sudhamani-kampamalla-65a331137/"
+            target="_blank"
+            className="intro__iconlink"
+          >
+            <LinkedInIcon />
+          </a>
+          <a
+            href="https://github.com/Sudhamani544"
+            target="_blank"
+            className="intro__iconlink"
+          >
+            <GitHubIcon />
+          </a>
         </div>
       </div>
 
