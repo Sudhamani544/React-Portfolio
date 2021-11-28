@@ -1,4 +1,4 @@
-# Getting Started with Create React Portfolio App
+React Portfolio
 
 In the project directory, you can run:
 
