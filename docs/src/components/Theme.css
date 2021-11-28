@@ -1,0 +1,21 @@
+.toggle {
+  width: 50px;
+  height: 25px;
+  border: 1px solid #999;
+  background-color: white;
+  border-radius: 20px;
+  position: fixed;
+  right: 10px;
+  top: 50px;
+  z-index: 999;
+}
+
+.toggle__button {
+  width: 25px;
+  height: 25px;
+  background-color: #999;
+  border-radius: 50%;
+  top: 0px;
+  position: absolute;
+  cursor: pointer;
+}

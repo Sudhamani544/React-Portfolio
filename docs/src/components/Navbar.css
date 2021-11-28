@@ -10,6 +10,7 @@
   flex: 0.7;
   padding: 1%;
 }
+
 .navbar_menu {
   flex: 0.3;
   display: flex;
@@ -19,6 +20,4 @@
 
 a {
   text-decoration: none;
-  /* color: #ff5403; */
-  color: black;
 }
