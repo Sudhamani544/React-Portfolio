@@ -1,4 +1,4 @@
-React Portfolio
+Personal Portfolio
 
 In the project directory, you can run:
 
